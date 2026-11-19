@@ -1,0 +1,77 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Pipeline artifact, output, input & fixture directories (local-only)
+/exports/
+/test/
+/inputs/
+/eval_fixtures/
+tmp/
+temp/
+logs/
+*.log
+
+# Large archives & compressed bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# 3D models, rigs, meshes & Blender working files
+*.glb
+*.gltf
+*.fbx
+*.vrm
+*.obj
+*.mtl
+*.ply
+*.stl
+*.usd
+*.usdc
+*.usdz
+*.blend
+*.blend1
+*.blend2
+
+# Renders, scientific arrays, model weights & media
+*.exr
+*.hdr
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.gif
+*.mp4
+*.mov
+*.webm
+*.avi
+
+# Local secrets & environment files
+.env
+.env.local
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

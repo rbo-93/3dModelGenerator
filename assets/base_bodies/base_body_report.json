@@ -1,0 +1,51 @@
+{
+  "source": "C:\\Users\\rbo\\Desktop\\Projects\\research\\assets\\base_bodies\\sources\\fem_vroid.vrm",
+  "blend_path": "C:\\Users\\rbo\\Desktop\\Projects\\research\\assets\\base_bodies\\anime_vroid_base_v1.blend",
+  "glb_path": "C:\\Users\\rbo\\Desktop\\Projects\\research\\assets\\base_bodies\\anime_vroid_base_v1.glb",
+  "bone_count": 52,
+  "canonical_52_exact": true,
+  "height_m": 1.75,
+  "min_z_m": 0.0,
+  "parts": {
+    "Body_Limbs": {
+      "verts": 5031,
+      "faces": 9958,
+      "uv_area": 0.7601,
+      "non_manifold_gt2": 0,
+      "shape_keys": [
+        "Basis",
+        "bust_scale",
+        "hip_width",
+        "waist_taper",
+        "calf_boot_thickness",
+        "heel_tilt"
+      ],
+      "materials": [
+        "AI_Body_Limbs"
+      ]
+    },
+    "Head_Face": {
+      "verts": 3536,
+      "faces": 6894,
+      "uv_area": 0.5485,
+      "non_manifold_gt2": 0,
+      "shape_keys": [
+        "Basis",
+        "elf_ears"
+      ],
+      "materials": [
+        "AI_Head_Face"
+      ]
+    },
+    "Eyes": {
+      "verts": 496,
+      "faces": 816,
+      "uv_area": 0.1983,
+      "non_manifold_gt2": 0,
+      "shape_keys": [],
+      "materials": [
+        "AI_Eyes"
+      ]
+    }
+  }
+}
